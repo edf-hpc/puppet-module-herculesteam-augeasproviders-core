@@ -8,9 +8,9 @@ Homepage: https://forge.puppet.com/herculesteam/augeasproviders_core
 
 Package: puppet-module-herculesteam-augeasproviders-core
 Architecture: all
-Depends: ${misc:Depends},
-         puppet-common,
-         puppet-module-puppetlabs-stdlib (>= 3.2.0)
+Depends: puppet-common,
+         puppet-module-puppetlabs-stdlib (>= 3.2.0),
+         ${misc:Depends}
 Description: Puppet module augeasproviders-core
  Puppet lets you centrally manage every important aspect of your system
  using a cross-platform specification language that manages all the
